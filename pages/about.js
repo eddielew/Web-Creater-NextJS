@@ -8,7 +8,9 @@ const About = () => {
         <meta name="keywords" content="Web Creater" />
       </Head>
       <div>
-        <h1>About</h1>
+        <h1 className="pb-5 text-gray-600 font-bold text-center text-3xl">
+          About
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           hic mollitia tenetur itaque quam nobis ab quibusdam ratione, nesciunt
@@ -16,6 +18,7 @@ const About = () => {
           libero architecto dolore non, dolores eius exercitationem incidunt!
           Eligendi, suscipit! Illo, ullam.
         </p>
+        <br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
           sequi voluptatibus vel odio, deleniti sit esse blanditiis adipisci

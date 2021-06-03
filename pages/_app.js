@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
             color: #333;
             font-family: "Nunito";
           }
+
           a {
             color: #333;
             text-decoration: none;

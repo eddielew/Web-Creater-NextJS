@@ -16,6 +16,9 @@ const Navbar = () => {
       <Link href="/webcreater">
         <a>Listing</a>
       </Link>
+      <Link href="/logInForm">
+        <a>LogIn</a>
+      </Link>
     </nav>
   );
 };

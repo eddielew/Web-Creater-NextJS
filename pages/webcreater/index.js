@@ -18,28 +18,19 @@ const Webcreater = ({ webcreaters }) => {
         <meta name="keywords" content="Web Creater" />
       </Head>
       <div>
-        <h1>All Web Creaters!</h1>
+        <h1 className="pb-5 text-gray-600 font-bold text-center text-3xl">
+          All Web Creaters!
+        </h1>
         {webcreaters.map((webcreater) => (
           <Link href={`/webcreater/${webcreater.id}`} key={webcreater.id}>
-            <a className={"single"}>
-              <h3>{webcreater.name}</h3>
+            <a className="block bg-white border-white border-l-8 hover:border-blue-500 my-4 pl-8 py-6 text-2xl">
+              <h3 className="text-gray-600 font-bold text-2xl">
+                {webcreater.name}
+              </h3>
             </a>
           </Link>
         ))}
       </div>
-      <style jsx>{`
-        .single {
-          padding: 2px 16px;
-          background: #fff;
-          display: block;
-          margin: 20px 10px;
-          border-left: 8px solid #fff;
-        }
-
-        .single:hover {
-          border-left: 8px solid #4979ff;
-        }
-      `}</style>
     </>
   );
 };

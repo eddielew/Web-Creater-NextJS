@@ -10,14 +10,17 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1 className={"title"}>Homepage</h1>
-        <p className={"text"}>
+        <h1 className="pb-5 text-gray-600 font-bold text-center text-3xl">
+          Homepage
+        </h1>
+        <p className="text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure,
           facere vitae beatae repellat sint, minus a corporis vel odit earum
           placeat recusandae quae quisquam culpa ratione unde reiciendis ex iste
           cum nam tenetur sed illo? Odio itaque beatae officiis?
         </p>
-        <p className={"text"}>
+        <br />
+        <p className="text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga
           enim exercitationem reiciendis praesentium accusamus dignissimos vel
           mollitia accusantium cum harum, in repudiandae molestias officia
@@ -25,29 +28,10 @@ export default function Home() {
           Deserunt illum praesentium voluptates commodi odit.
         </p>
         <Link href="/webcreater">
-          <a className={"btn"}>See WebCreater Listing</a>
+          <a className="w-36 block text-white my-5 mx-auto p-2 text-center rounded-md bg-blue-500">
+            See WebCreater Listing
+          </a>
         </Link>
-
-        <style jsx>{`
-          .title {
-            color: #333;
-            padding-bottom: 20px;
-            text-align: center;
-          }
-          .text {
-            color: #777;
-          }
-          .btn {
-            display: block;
-            width: 150px;
-            padding: 8px 0;
-            margin: 20px auto;
-            background: #4979ff;
-            border-radius: 4px;
-            color: white;
-            text-align: center;
-          }
-        `}</style>
       </div>
     </>
   );
