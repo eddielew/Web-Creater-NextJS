@@ -10,9 +10,9 @@ const logInForm = () => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
             />
           </svg>
@@ -31,7 +31,7 @@ const logInForm = () => {
             <div className="w-full md:w-full px-3 mb-6">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="Password"
+                htmlFor="Password"
               >
                 Email address
               </label>
@@ -44,7 +44,7 @@ const logInForm = () => {
             <div className="w-full md:w-full px-3 mb-6">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="Password"
+                htmlFor="Password"
               >
                 Password
               </label>
@@ -55,7 +55,7 @@ const logInForm = () => {
               />
             </div>
             <div className="w-full flex items-center justify-between px-3 mb-3 ">
-              <label for="remember" className="flex items-center w-1/2">
+              <label htmlFor="remember" className="flex items-center w-1/2">
                 <input
                   type="checkbox"
                   name=""
