@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+
 import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,19 @@ function MyApp({ Component, pageProps }) {
             background: #f2f2f2;
             color: #333;
             font-family: "Nunito";
+          }
+
+          h1 {
+            font-size: 2rem;
+          }
+          h2 {
+            font-size: 1.5rem;
+          }
+          h3 {
+            font-size: 1.17rem;
+          }
+          h4 {
+            font-size: 1rem;
           }
 
           a {

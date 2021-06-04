@@ -27,13 +27,12 @@ export const getStaticProps = async (context) => {
 const Details = ({ webcreater }) => {
   return (
     <div>
-      <h1 className="text-gray-600 font-bold text-3xl my-2">Details</h1>
-      <h1 className="text-gray-600 font-bold text-3xl my-2">
-        {webcreater.name}
-      </h1>
+      <h1 className="text-gray-600 font-bold my-2">Details</h1>
+      <h1 className="text-gray-600 font-bold my-2">{webcreater.name}</h1>
       <p className="text-gray-500 text-3xl my-2">{webcreater.email}</p>
       <p className="text-gray-500 text-3xl my-2">{webcreater.website}</p>
       <p className="text-gray-500 text-3xl my-2">{webcreater.address.city}</p>
+      <style jsx>{``}</style>
     </div>
   );
 };

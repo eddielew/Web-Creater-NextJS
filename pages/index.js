@@ -10,9 +10,7 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1 className="pb-5 text-gray-600 font-bold text-center text-3xl">
-          Homepage
-        </h1>
+        <h1 className="pb-5 text-gray-600 font-bold text-center">Homepage</h1>
         <p className="text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure,
           facere vitae beatae repellat sint, minus a corporis vel odit earum
