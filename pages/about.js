@@ -1,4 +1,6 @@
 import Head from "next/head";
+import AudioPlayer from "../components/AudioPlayer";
+import ReactAudioPlayer from "react-audio-player";
 
 const About = () => {
   return (
@@ -26,6 +28,8 @@ const About = () => {
           nesciunt voluptatem nobis consequuntur quibusdam dolorem? Alias natus
           voluptas impedit debitis similique voluptatibus.
         </p>
+        <AudioPlayer />
+        <ReactAudioPlayer src="/track1.mp3" controls />
       </div>
     </>
   );
